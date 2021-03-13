@@ -9,7 +9,7 @@ Here I'll mainly use:
 - CSS
 - JavaScript
 
-These three language will only cover the front end portion of creating application, however it will assist me from studying frameworks,
+These three language will only cover the front end portion of creating application, however it will assist me from studying frameworks and library,
 such as:
 - jQuery
 - Django
