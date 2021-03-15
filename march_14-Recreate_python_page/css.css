@@ -1,0 +1,207 @@
+*{
+    margin:0;
+    padding:0;
+}
+.wrapper{
+    width: 970px;
+    height: 900px;
+    background-color: #245076;
+}
+p{
+    font-family: 'Arial Narrow Bold', sans-serif;
+}
+/* .topbar */
+.topbar{
+    padding-left: 20px;
+}
+    .topbar .logo{
+        width: 300px;
+        margin-top: 10px;
+        margin-right: 330px;
+        display: inline-block;
+    }
+    .topbar .textandsearch{
+        margin-top: 5px;
+        display: inline-block;
+        vertical-align: top;
+    }
+        .topbar .textandsearch .textsize{
+            padding-left: 100px;
+            color: white;
+        }
+            .topbar .textandsearch .textsize span{
+                color: black;
+            }
+            .topbar .textandsearch .textsize a{
+                color: #f8cf30;
+            }
+    .topbar .searchengine{
+        background-color:#444444;
+        border-radius: 10px;
+        box-shadow: 3px 3px 2px black;
+        width: 300px;
+        height: 50px;
+        padding-top: 15px;
+        text-align: center;
+    }
+        input{
+            height: 30px;
+            text-align: center;
+        }
+        button{
+            background-color: #245076;
+            border: 2px solid #bebebf;
+            box-shadow: 0 0 5px black;
+            color: white;
+            width: 40px;
+            height: 30px;
+            border-radius: 8px;
+            margin-left: 5px;
+        }
+.menu{
+    background-color: #427cad;
+    box-shadow: 3px 3px 2px black;
+    border-radius: 10px;
+    height: 60px;
+    width: 840px;
+    margin-left: 80px;
+}
+    .main{
+        text-align: center;
+        padding-top: 15px;
+    }
+    .mainlist{
+        display: inline-block;
+        margin-left: 30px;
+    }
+    .selections{
+        font-size: 25px;
+        text-decoration: none;
+        color: white;
+        display: inline-block;
+        font-family: 'Arial Narrow Bold', sans-serif;
+    }
+    .selections:hover{
+        background-color: cornflowerblue;
+        color: darkblue;
+    }
+.bulletpoints{
+    /* background-color: cadetblue; */
+    width: 200px;
+    height: 300px;
+    margin-left: 120px;
+    display: inline-block;
+}
+    .bulletpoints ul{
+        text-align: center;
+        list-style-type: circle;
+        list-style-position: inside;
+        margin-top: 30px;
+    }
+        .bulletpoints ul li{
+            margin-top: 10px;
+            color: #f8cf30;
+        }
+            .bulletpoints ul li a{
+                color: white;
+                font-family: 'Arial Narrow Bold', sans-serif;
+            }
+.facts{
+    width: 590px;
+    height: 400px;
+    display: inline-block;
+    vertical-align: top;
+}
+    .history{
+        height: 120px;
+        width: 590px;
+        text-align: center;
+    }
+        .history p{
+            padding-top: 20px;
+            font-size: 15px;
+            color: white;
+        }
+    .quotes{
+        width: 500px;
+        height: 250px;
+        margin-left: 45px;
+        margin-top: 10px;
+        text-align: center;
+        padding-top: 10px;
+    }
+        .quotes ul{
+            list-style-type: none;
+        }
+        .quotes p{
+            color: white;
+            margin-top: 10px;
+            font-size: 20px;
+        }
+            .quotes ul li{
+                margin-top: 10px;
+                font-size: 20px;
+                color: #f8cf30;
+                font-family: 'Arial Narrow Bold', sans-serif;
+                font-style: italic;
+            }
+.centerbar{
+    background-color: white;
+    padding-left: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+    .barpoints{
+        width: 420px;
+        height: 230px;
+        margin-left: 20px;
+        display: inline-block;
+        vertical-align: top;
+        text-align: center;
+    }
+        .barpoints h2{
+            font-family: 'Arial Narrow Bold', sans-serif;
+            margin-bottom: 10px;
+            border-top: 3px solid #73a7d5;
+        }
+        .barpoints p{
+            margin-left: 20px;
+            width: 380px;
+        }
+            .barpoints p a{
+                color: #8ab5db;
+            }
+        .barpoints ul{
+            display: inline-block;
+        }
+            .barpoints ul li a{
+                text-decoration: none;
+                font-family: 'Arial Narrow Bold', sans-serif;
+                color: #8ab5db;
+            }
+.bottombar{
+    padding-left: 20px;
+    padding-top: 40px;
+    background-image: linear-gradient(#25537a,#3677ae);
+}
+    .bottombar ul{
+        list-style-type: none;
+        text-align: center;
+    }
+        .bottombar ul li{
+            display: inline-block;
+            margin-left: 20px;
+            margin-right: 20px;
+            font-size: 20px;
+        }
+            .bottombar ul li a{
+                text-decoration: none;
+                color: #7aadda;
+                font-family: 'Arial Narrow Bold', sans-serif;
+            }
+    .copyright{
+        text-align: center;
+        font-size: 15px;
+        color: #7aadda;
+        margin-top: 10px;
+    }
