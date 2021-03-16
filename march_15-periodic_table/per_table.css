@@ -1,0 +1,105 @@
+/* css */
+*{
+    margin: 0;
+    padding: 0;
+}
+.wrapper{
+    background-color: #eeeeee;
+}
+.left{
+    width: 148px;
+    display: inline-block;
+}
+p.n{
+    text-align: center;
+    color: red;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    display: inline-block;
+    vertical-align: top;
+    width: 45px;
+    height: 45px;;
+    padding-top: 5px;
+}
+p.nl{
+    text-align: center;
+    color: red;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    display: inline-block;
+    vertical-align: top;
+    width: 99px;
+    height: 40px;;
+    padding-top: 10px;
+}
+.left div{
+    text-align: center;
+    color: #1913a2;
+    background-color: #689bff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    display: inline-block;
+    vertical-align: top;
+    width: 45px;
+    height: 49px;
+    margin-bottom: 2px;
+}
+.center div{
+    text-align: center;
+    color: #1913a2;
+    background-color: #fd9a98;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    display: inline-block;
+    vertical-align: top;
+    width: 45px;
+    height: 49px;
+    margin-bottom: 2px;
+}
+
+.center{
+    width: 490px;
+    display: inline-block;
+    vertical-align: top;
+}
+    .center .bor{
+        width: 20px;
+        height: 153px;
+    }
+.right{
+    display: inline-block;
+    vertical-align: top;
+    width: 310px;
+    margin-left: 0;
+}
+    .right div{
+        text-align: center;
+        color: #1913a2;
+        background-color: #fecb00;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 10px;
+        display: inline-block;
+        vertical-align: top;
+        width: 45px;
+        height: 49px;
+        margin-bottom: 2px;
+    }
+.bot{
+    width: 930px;
+}
+.bot div{
+    text-align: center;
+    color: #1913a2;
+    background-color: #1fca21;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    display: inline-block;
+    vertical-align: top;
+    width: 45px;
+    height: 49px;
+    margin-bottom: 2px;
+}
+.bot .smalls{
+    width: 0px;
+    background-color: #eeeeee;
+}
