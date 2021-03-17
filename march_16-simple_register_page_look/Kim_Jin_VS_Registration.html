@@ -1,0 +1,70 @@
+<!-- registeration page, just a look -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Registration Form</title>
+    <style>
+        input.tx{
+            position: absolute;
+            left: 120px;
+        }
+        select{
+            position: absolute;
+            left: 180px;
+        }
+    </style>
+</head>
+<body>
+    <h1>
+        My Registration Form
+    </h1>
+    <form>
+        <label>
+            First Name:<input class="tx" type="text" name="first_name">
+        </label>
+        <br><br>
+        <label>
+            Last Name:<input class="tx" type="text" name="last_name">
+        </label>
+        <p></p>
+        <label>
+            Email:<input class="tx" type="email" name="email">
+        </label>
+        <br><br>
+        <label>
+            Password:<input class="tx" type="password" name="password">
+        </label>
+        <P></P>
+        <label>
+            PW Confirm: <input class="tx" type="password" name="passwrd_cf">
+        </label>
+        <br><br>
+        <label>
+            Birthday: <input class="tx" type="date" name="birthday">
+        </label>
+        <p></p>
+        <label>
+            <input type="radio" id="male" name="gender" value="male">Male
+        </label>
+        <label>
+            <input type="radio" id="female" name="gender" value="female">Female
+        </label>
+        <label>
+            <input type="radio" id="other" name="gender" value="other">Other
+        </label>
+        <p>A Short description about yourself.</p>
+        <textarea name="description" rows="5" cols="40"></textarea>
+        <br>
+        Favorite Language<select>
+            <option value="java">Java</option>
+            <option value="javascript">javascript</option>
+            <option value="Python">Python</option>
+        </select>
+        <br>
+        <p></p>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
