@@ -1,0 +1,41 @@
+<!-- hovering in and out -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="hover_inout.css">
+    <script type="text/javascript" src='http://code.jquery.com/jquery-1.10.2.min.js'></script>
+    <script>
+        $(document).ready(function(){
+            $('.first').hover(function(){
+                $(this).attr('src','unnamed.jpg')
+            },function(){
+                $(this).attr('src','1b898ada-e9be-4f95-8344-f4211b53bf7d.png')
+            })
+            $('.second').hover(function(){
+                $(this).attr('src','unnamed.jpg')
+            },function(){
+                $(this).attr('src','e3cf29f2a8e33d169f2ba7b95b45cd06.jpg')
+            })
+            $('.third').hover(function(){
+                $(this).attr('src','unnamed.jpg')
+            },function(){
+                $(this).attr('src','Kermit_the_Frog.jpg')
+            })
+            $('.forth').hover(function(){
+                $(this).attr('src','unnamed.jpg')
+            },function(){
+                $(this).attr('src','thats-me.png')
+            })
+        })
+    </script>
+</head>
+<body>
+    <img class="first" src="1b898ada-e9be-4f95-8344-f4211b53bf7d.png" alt="kermit1">
+    <img class="second" src="e3cf29f2a8e33d169f2ba7b95b45cd06.jpg" alt="kermit2">
+    <img class="third" src="Kermit_the_Frog.jpg" alt="kermit3">
+    <img class="forth" src="thats-me.png" alt="kermit4">
+</body>
+</html>
