@@ -1,0 +1,15 @@
+/* Disappearing image */
+*{
+    margin: 0;
+    padding: 0;
+}
+img{
+    display: inline-block;
+    vertical-align: top;
+    margin: 5px;
+}
+button{
+    position: absolute;
+    bottom: 400px;
+    left: 10px;
+}

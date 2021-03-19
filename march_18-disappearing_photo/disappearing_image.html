@@ -1,0 +1,34 @@
+<!-- Disappearing photo, when the image is clicked, it will disappear -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="css.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $("img").click(function(){
+                $(this).hide()
+            })
+            $("button").click(function(){
+                $("img").show()
+            })
+        })
+    </script>
+</head>
+<body>
+    <div class="wrapper">
+        <img src="b96d3501377690061fe82bf5103d0e66.gif" alt="kermit">
+        <img src="b96d3501377690061fe82bf5103d0e66.gif" alt="kermit">
+        <img src="b96d3501377690061fe82bf5103d0e66.gif" alt="kermit">
+        <img src="b96d3501377690061fe82bf5103d0e66.gif" alt="kermit">
+        <img src="b96d3501377690061fe82bf5103d0e66.gif" alt="kermit">
+        <img src="b96d3501377690061fe82bf5103d0e66.gif" alt="kermit">
+        <img src="b96d3501377690061fe82bf5103d0e66.gif" alt="kermit">
+        <img src="b96d3501377690061fe82bf5103d0e66.gif" alt="kermit">
+        <button>Restore!</button>
+    </div>
+</body>
+</html>
